@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "g++.exe build active file",
+			"command": "g++.exe -lstdc++ -std=c++17 -g ${workspaceFolder}\\*.cpp -o ${workspaceFolder}\\bin\\binary_for_windows.exe",
+			"options": {
+				"cwd": "C:\\MinGW\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
