@@ -115,7 +115,4 @@ void Tictactoe::draw(){
     cout << "It is a DRAW. Nobody won !";
 }
 
-void Tictactoe::reset(){
-
-}
 

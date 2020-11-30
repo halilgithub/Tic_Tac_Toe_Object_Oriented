@@ -15,7 +15,6 @@ class Tictactoe {
         void changePlayer();
         void checkForWin();
         void draw();
-        void reset();
 
     private:
         array<char,9> mBoard;
