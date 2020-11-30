@@ -25,7 +25,7 @@ char Tictactoe::getFirstPlayerFromUser(){
     char playerSelection;
     while(1)
     {
-        cout << "Which player will make the first move (X,O) ?" << endl;
+        cout << "Which player will make the first move (X,O)? :";
         cin >> playerSelection;
 
         if (playerSelection == 'X' || playerSelection == 'x'){
@@ -47,7 +47,7 @@ char Tictactoe::getFirstPlayerFromUser(){
 }
 
 void Tictactoe::play(){
-    
+
     mCurrentPlayer = getFirstPlayerFromUser();
     bool isMoveValid;
     for (int i = 1; i <= mMaxNumberOfMoves; i++)
