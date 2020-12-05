@@ -20,7 +20,7 @@ class Tictactoe {
         array<char,9> mBoard;
         const char mPlayerX = 'X';
         const char mPlayerO = 'O';
-        char mCurrentPlayer;
         const int mMaxNumberOfMoves = 9;
+        char mCurrentPlayer;
 
 };
