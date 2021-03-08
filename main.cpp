@@ -3,8 +3,8 @@
 
 int main()
 {
-	Tictactoe game;
-	game.play();
+	Tictactoe *game = new Tictactoe();
+	game->play();
 	return 0;
 }
 
